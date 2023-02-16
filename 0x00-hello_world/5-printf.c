@@ -1,8 +1,4 @@
 #include<stdio.h>
- /**
-  *  main - print  "with proper program "
-  *   returns 0
-  */
 
 int main(void)
 

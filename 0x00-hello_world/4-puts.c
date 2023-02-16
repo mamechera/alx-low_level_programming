@@ -7,6 +7,8 @@
  * returns 0
  */
 
+/* main entry */
+
 int main(void)
 
 {

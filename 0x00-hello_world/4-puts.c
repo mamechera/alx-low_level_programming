@@ -2,7 +2,8 @@
 
 
 /**
- * main - display by using putst
+ * main - prints "programming is like building a multilingual
+ * puzzle, followed by a newline."
  * returns 0
  */
 

@@ -1,12 +1,9 @@
 #include<stdio.h>
 
-
 /**
- * main - Entry point 
- * Description: prints "programming is like building a multilingual
+ * main - Entry point prints "programming is like building a multilingual
  * puzzle", followed by a newline.
  * Returns 0
- *
  *
  */
 

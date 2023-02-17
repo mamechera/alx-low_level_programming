@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry program
+ * main - it returns posative or negative number Entry program
  *
  * posative number
  *

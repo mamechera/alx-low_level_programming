@@ -1,12 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/**
+ * main - Entry program
+ *
+ * posative number
+ *
+ * return 0
+ */
 
-/** 
-* main - entry functino
-* more headers goes there
-* betty style doc for function main goes there 
-*/
 int main(void)
 {
 	int n;

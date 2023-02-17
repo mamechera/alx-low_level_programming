@@ -5,7 +5,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/* main - Entry function */
+/* 
+ * main - Entry function 
+ *
+ */
 int main(void)
 {
 	int n;

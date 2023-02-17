@@ -6,7 +6,7 @@
  *
  * posative number
  *
- * return 0
+ * return 0. success
  */
 
 int main(void) /*main function*/

@@ -1,14 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
- * main- Entry point
- *
- *documentation-more headers goes there betty style doc for function main goes there
- *
- *
- */
-/*main- entry point*/
+
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 
 int main(void)
 {

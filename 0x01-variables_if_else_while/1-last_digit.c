@@ -19,7 +19,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and greater than 5\n",n,last_number);
 	}
-	else if (last_number 6 < && last_number > 0)
+	else if (last_number < 6 && last_number > 0)
 	{
 		printf("Last digit of %d is %d and less than 6 not 0\n", n,last_number);
 	}

@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - it returns posative or negative number Entry program
+ * main - Entry Point it returns posative or negative number Entry program
  *
  * posative number
  *
- * return 0. success
+ * Return: Always 0 Success
  */
 
 int main(void) /*main function*/

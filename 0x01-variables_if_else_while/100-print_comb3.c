@@ -10,19 +10,20 @@
 
 int main(void)
 {
-    int ch;
-    int i;
-    for (ch = 48; ch < 57; ch++ )
-
-    {
-
+	int ch;
+	int i;
+	for (ch = 48; ch < 57; ch++ )
+	
+	{
+	
         for (i = 49; i < 58; i++)
         {
-            if (ch == i || ch >= i){
-
-                continue;
-
-            }
+        	if (ch == i || ch >= i)
+		{
+		
+                	continue;
+		
+            	}
             if (ch !=57 || i != 58)
 	    {
                 putchar(ch);

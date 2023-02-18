@@ -14,32 +14,22 @@ int main(void)
 	int i;
 
 	for (ch = 48; ch < 57; ch++ )
-	
 	{
-	
-        for (i = 49; i < 58; i++)
-        {
-        	if (ch == i || ch >= i)
+		for (i = 49; i < 58; i++)
 		{
-		
-                	continue;
-		
-            	}
-            if (ch !=57 || i != 58)
-	    {
-                putchar(ch);
-                putchar(i);
-                if (i!=57 || ch != 56)
-                {
-                    putchar(',');
-                }
-                putchar(' ');
-
-            }
-
-        }
-    }
-
-
-    return 0;
+			if (i != ch)
+			{
+				putchar(ch);
+				putchar(i);
+				if (ch == 56 && i == 57)
+				{
+					continue;
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+		putchar('\n');
+		return (0);
+	}
 }

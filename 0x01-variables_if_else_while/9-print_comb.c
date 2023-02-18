@@ -13,7 +13,8 @@ int main(void)
 	for (ch = 48; ch < 58; ch++)
 	{
 		putchar(ch);
-		putchar(', ');
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);

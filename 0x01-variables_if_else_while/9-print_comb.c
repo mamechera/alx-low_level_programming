@@ -16,6 +16,6 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
-	putchar(ch = 57," ");
+	putchar(ch =  57);
 	return (0);
 }

@@ -10,12 +10,16 @@ int main(void)
 {
 	int ch;
 
-	for (ch = 48; ch < 57; ch++)
+	for (ch = 48; ch <= 57; ch++)
 	{
 		putchar(ch);
+
+		if(ch != 57)
+		{
 		putchar(',');
+		}
 		putchar(' ');
 	}
-	putchar(ch =  57);
+	
 	return (0);
 }

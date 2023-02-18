@@ -23,10 +23,11 @@ int main(void)
                 continue;
 
             }
-            if (ch !=57 || i != 58){
+            if (ch !=57 || i != 58)
+	    {
                 putchar(ch);
                 putchar(i);
-                if (i!=57)
+                if (i!=57 || ch != 56)
                 {
                     putchar(',');
                 }

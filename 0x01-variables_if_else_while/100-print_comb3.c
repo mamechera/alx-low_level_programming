@@ -1,40 +1,29 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main - Entry point
- * 
- * Return:Always 0 Success
- * 
+ * main - display last number
+ *
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
-    int ch;
-    int i;
-    for (ch = 48; ch < 57; ch++ )
-    
-    { 
-       
-        for (i = 49; i < 58; i++)
-        {
-            if (ch == i || ch >= i){
-                
-                continue;
-                
-            }
-            if (ch !=57 || i != 58){
-                putchar(ch);
-                putchar(i);
-                if (i!=57 || ch !=56)
-                {
-                    putchar(',');
-                }
-                putchar(' ');
-                
-            }
-            
-        }
-    }
-    
-    return 0;
+	int n, m;
+
+	for (n = 48; n <= 56; n++)
+	{
+		for (m = 49; m <= 57; m++)
+		{
+			if (m > n)
+			{
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }

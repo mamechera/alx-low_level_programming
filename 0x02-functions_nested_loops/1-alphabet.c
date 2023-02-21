@@ -3,7 +3,7 @@
 /**
  * print_alphabet - a function which print an alphabet
  *
- * @c: input characheter
+ * @chm: input characheter
  *
  * Returns:character value
  *

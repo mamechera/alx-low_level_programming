@@ -1,8 +1,8 @@
 #include "main.h"
 
-/** 
+/**
  * _islower - function which return lower number
- *
+ * @c: an input argeument
  * Return:Always success
  *
  */

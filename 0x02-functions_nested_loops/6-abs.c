@@ -8,11 +8,13 @@
  */
 int _abs(int)
 {
-	int n;
-	if (n < 0)
+	int m;
+
+	if (m < 0)
 	{
-		return (n * -1);
+		int absolute_value;
+		absolute_value = m * -1;
+		return (absolute_value);
 	}
-	else
-		return (n);
+	return (m);
 }

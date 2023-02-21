@@ -2,7 +2,7 @@
 
 /**
  * _abs - function for absolute
- *@m:an arguement 
+ * @m:an arguement for function 
  * Return:always 0 success
  *
  */

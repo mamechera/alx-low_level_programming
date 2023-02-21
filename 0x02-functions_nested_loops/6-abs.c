@@ -2,7 +2,9 @@
 
 /**
  * _abs - function for absolute
- * @m:anarguement for function 
+ *
+ *@m:anarguement for function
+
  * Return:always 0 success
  *
  */

@@ -3,6 +3,8 @@
 /**
  * main - function which return alphabet
  *
+ * @print_alphabet returns a character
+ *  
  * Return:Always 0 Success
  *
  */

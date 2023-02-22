@@ -11,9 +11,9 @@ void print_alphabet(void)
 {
 		int ch;
 
-		for (ch = 'a'; ch <= 'z'; ch++)
+		for (ch = 97; ch <= 122; ch++)
 		{
-		_putchar((char)ch);
+		_putchar(ch);
 		}
 		_putchar('\n');
 

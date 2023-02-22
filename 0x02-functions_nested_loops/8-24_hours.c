@@ -3,12 +3,7 @@
 /**
  * jack_bauer - its function
  *
- * @i:arguiment
- * @j:second arguement
- * @k:third arguiment
- * @l:fourth
- *
- * Return:always success
+ *Return:always success
  *
  */
 void jack_bauer(void)

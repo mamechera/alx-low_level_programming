@@ -3,7 +3,7 @@
 /**
  * jack_bauer - its function
  *
- *Return:always success
+ *Return:always successul
  *
  */
 void jack_bauer(void)
@@ -31,4 +31,4 @@ void jack_bauer(void)
 			}
 		}
 	}
-}	
+}

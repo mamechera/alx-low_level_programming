@@ -1,19 +1,20 @@
-#include "main.h"
+nclude "main.h"
 
 /**
- * print_alphabet - a function which print an alphabet
+ * main - check the code print_alphabet
  *
- * @l: input characheter
- *
- * Returns:character value
+ * Return: Always 0.
  */
+
+
 void print_alphabet(void)
 {
-	char l;
+		char ch ;
 
-	for (l = 'a'; l <= 'z'; l++)
-	{
-		_putchar(l);
-	}
-	_putchar('\n');
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+		_putchar(ch);
+		}
+		_putchar('\n');
+
 }

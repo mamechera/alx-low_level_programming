@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- * print_most_numbers - it print more numbers
- *
- * Return:always success
- *
- */
+*print_most_numbers - prints
+* owned by Bwave ICT
+*Return: void
+*/
+
 void print_most_numbers(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 0; ch <= 57; ch++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		if (ch != 50 && ch != 52)
-		{
-			_putchar(ch);
-		}
+	if (!(c == '2' || c == '4'))
+	_putchar(c);
 	}
 	_putchar('\n');
 }

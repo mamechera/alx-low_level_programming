@@ -1,7 +1,8 @@
 #include "main.h"
 
-/*print_most_numbers - it print more numbers
- * 
+/**
+ * print_most_numbers - it print more numbers
+ *
  * Return:always success
  *
  */

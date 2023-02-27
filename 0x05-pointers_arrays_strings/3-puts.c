@@ -1,13 +1,14 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _puts - output function
- * @str:input string
+ * _puts - prints string with newline
+ * @str: the string to print
  *
- * Return:always
- *
+ * Return: void
  */
 void _puts(char *str)
 {
-	puts(str);
+	while (*str)
+		_putchar(*str++);
+	_putchar('\n');
 }

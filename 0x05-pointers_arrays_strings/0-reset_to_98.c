@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - its function which return modfied pointer value
- *
+ * @n:pointer return address
  * Return:always success
  *
  */

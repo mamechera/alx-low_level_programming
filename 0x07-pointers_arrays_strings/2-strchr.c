@@ -12,7 +12,7 @@
 
 char *_strchr(char *s, char c)
 {
-	int i, j;
+	int i = 0, j;
 
 	while (s[i])
 	{
